@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1206452345356326}
+  m_IsPrefabParent: 1
+--- !u!1 &1206452345356326
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4561660427564754}
+  - component: {fileID: 114816947435629672}
+  - component: {fileID: 82417246632799850}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4561660427564754
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1206452345356326}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &82417246632799850
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1206452345356326}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 243038732753600918, guid: 302bc12d634a4be45a9c4df1649b6e5e,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: d1d411941e6cfba45a51bda6e0bf317f, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &114816947435629672
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1206452345356326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4aa4135e1ddbb24daff354c885b643f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animatorPlayer:
+  - {fileID: 9100000, guid: 0d8e3f65e2194b84f93f8ad648b5eb3a, type: 2}
+  animatorEnemy:
+  - {fileID: 9100000, guid: 90ee62c4cc167ec4296fc719ef4fc4ab, type: 2}
+  - {fileID: 9100000, guid: fa345870c0bda1f478c5f9c72555e4fe, type: 2}
+  - {fileID: 9100000, guid: 8e4971ccbe307744494ccd318e7fa8c2, type: 2}
+  animatorCoin: {fileID: 9100000, guid: da04a6bd444cc0f49a6922ee935dfafe, type: 2}
+  "sprFree\u0421ell": {fileID: 21300004, guid: 0a779fae777378a4a81cdc35128aea59, type: 3}
+  sprBox: {fileID: 21300000, guid: 0a779fae777378a4a81cdc35128aea59, type: 3}
+  sprObsrtacle: {fileID: 21300002, guid: 0a779fae777378a4a81cdc35128aea59, type: 3}
+  sprCoin: {fileID: 21300146, guid: 0a779fae777378a4a81cdc35128aea59, type: 3}
+  sprBonus:
+  - {fileID: 21300000, guid: 36492eaa88211694b8bdf8460715f90b, type: 3}
+  - {fileID: 21300000, guid: 2d45a97af527f2542a0682bf48cb4302, type: 3}
+  - {fileID: 21300000, guid: ccc4fa33d375af84aa961b763556f9e6, type: 3}
+  - {fileID: 21300000, guid: 750d7ff09ccaa2e488f71d64abda99f1, type: 3}
+  - {fileID: 21300000, guid: 02d715b3b36feec468048d6ee84dfc7f, type: 3}
+  - {fileID: 21300000, guid: bbba23bb45012e944a42e7daa60031fd, type: 3}
+  - {fileID: 21300000, guid: d9331bb4d7f72474ebe1a9a7c90aee68, type: 3}
+  - {fileID: 21300000, guid: 08f4a03ae17dd37498d49f68611719a8, type: 3}
+  - {fileID: 21300000, guid: 8b6a7e27096ac05499a7adf283aa453a, type: 3}
+  genMapTexFile: 0
+  numberlevel: 0
+  maxLevel: 2
+  sfxCoinsSound: {fileID: 8300000, guid: af96b9f7ef3e51845a29437283d91840, type: 3}
+  sfxBonusesSound: {fileID: 8300000, guid: cc9de6cc4a6003c48b8bbb913a617725, type: 3}
+  sfxDamageSound: {fileID: 8300000, guid: ca9e4763a75efa14db63ca8b4e757086, type: 3}
+  sfxPlayerMoveSound: {fileID: 8300000, guid: 16981268ba227e848aa40d5ee134fd7b, type: 3}

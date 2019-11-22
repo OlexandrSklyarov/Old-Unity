@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86ce7466626b842719fa5c167bf153f8, type: 3}
+  m_Name: SmileData
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 21300000, guid: a4c91551e7aeb4a55a4c69f3fad630f0, type: 3}
+  - {fileID: 21300000, guid: c1c8441eaf3dc46caa351203e8db1148, type: 3}
+  - {fileID: 21300000, guid: 2675833d1e2894c878d2d97adbb1ee66, type: 3}
+  maxForwardDistance: 2.5
+  minMoveSpeed: 0.1
+  maxMoveSpeed: 1
+  timeDeleyMin: 0.5
+  timeDeleyMax: 2

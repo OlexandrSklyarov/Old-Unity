@@ -1,0 +1,421 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1232747124985566}
+  m_IsPrefabParent: 1
+--- !u!1 &1232747124985566
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4591657153956086}
+  - component: {fileID: 82693610567193268}
+  - component: {fileID: 82542580825353938}
+  - component: {fileID: 114006278604236892}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4591657153956086
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1232747124985566}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &82542580825353938
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1232747124985566}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 243388318087575920, guid: 23dfc02d5183b45c0baadb3ce191e839,
+    type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!82 &82693610567193268
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1232747124985566}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 243274222725992078, guid: 23dfc02d5183b45c0baadb3ce191e839,
+    type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &114006278604236892
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1232747124985566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31553e2c9e1e540c98555a8a4fd1f79d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: snakeWalk
+    clip: {fileID: 8300000, guid: d88e6bd959ff29740b3eed6ab266ea36, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    isMusic: 0
+    source: {fileID: 0}
+  - name: snakeRun
+    clip: {fileID: 8300000, guid: d88e6bd959ff29740b3eed6ab266ea36, type: 3}
+    volume: 0.3
+    pitch: 1.3
+    loop: 0
+    isMusic: 0
+    source: {fileID: 0}
+  - name: snakeAttack
+    clip: {fileID: 8300000, guid: 0ec5d5059013746aab2325d7d4bfb9c6, type: 3}
+    volume: 0.2
+    pitch: 1.3
+    loop: 0
+    isMusic: 0
+    source: {fileID: 0}
+  - name: snakeJump
+    clip: {fileID: 8300000, guid: 8c1aafb4dfbad4689867f5751a41fa92, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    isMusic: 0
+    source: {fileID: 0}
+  - name: snakeDamage
+    clip: {fileID: 8300000, guid: a9d48fef28842449296e26b3b0a47490, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    isMusic: 0
+    source: {fileID: 0}
+  - name: snakeEnterWater
+    clip: {fileID: 8300000, guid: 812110afb72bc49af8fdc0c61e3cf473, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    isMusic: 0
+    source: {fileID: 0}
+  - name: snakeMoveWater
+    clip: {fileID: 8300000, guid: ce1edd60a8caf45f0ae7d3068df95798, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    isMusic: 0
+    source: {fileID: 0}
+  - name: snakeEating
+    clip: {fileID: 8300000, guid: c889981b546dc4e4c98437ff8e0788fd, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    isMusic: 0
+    source: {fileID: 0}
+  - name: timeAdd
+    clip: {fileID: 8300000, guid: 940895201fcba47ef9ef74c9bd2bde10, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    isMusic: 0
+    source: {fileID: 0}
+  - name: liveAdd
+    clip: {fileID: 8300000, guid: 7fb8bca56c02a4deaacc41ab2875857b, type: 3}
+    volume: 0.2
+    pitch: 1.1
+    loop: 0
+    isMusic: 0
+    source: {fileID: 0}
+  - name: boxDestroy
+    clip: {fileID: 8300000, guid: 99c325514e6194235a6adbaa7da91f44, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    isMusic: 0
+    source: {fileID: 0}
+  - name: scaleMoveDown
+    clip: {fileID: 8300000, guid: f8124029fc0424eda9ac7dbc37bcddad, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    isMusic: 0
+    source: {fileID: 0}
+  - name: scaleNormalMass
+    clip: {fileID: 8300000, guid: b2ff5915b2b82451987eceae1f250f53, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    isMusic: 0
+    source: {fileID: 0}
+  - name: scaleLowMass
+    clip: {fileID: 8300000, guid: a054e527e991c489197f4d6447378548, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    isMusic: 0
+    source: {fileID: 0}
+  - name: scaleMoveUp
+    clip: {fileID: 8300000, guid: 38877afb302f8431c8cd85253c0f4e2f, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    isMusic: 0
+    source: {fileID: 0}
+  - name: foodJump
+    clip: {fileID: 8300000, guid: aff749d5a74be4e17af9c2a34af1ed83, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    isMusic: 0
+    source: {fileID: 0}
+  - name: enemyKvakMove
+    clip: {fileID: 8300000, guid: d95397aae2bdf48f4a1512b9aea0fba3, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    isMusic: 0
+    source: {fileID: 0}
+  - name: enemyBladeManRotate
+    clip: {fileID: 8300000, guid: 3c0393f46795d47c29fd375cf14500b7, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    isMusic: 0
+    source: {fileID: 0}
+  - name: enemyDestroy
+    clip: {fileID: 8300000, guid: 87ab5c523bd9e46eba4d9c5e9056406d, type: 3}
+    volume: 0.2
+    pitch: 1.1
+    loop: 0
+    isMusic: 0
+    source: {fileID: 0}
+  - name: startLevel
+    clip: {fileID: 8300000, guid: d290eb71a10584e08b31afbdb71f2d66, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    isMusic: 0
+    source: {fileID: 0}
+  - name: gameWin
+    clip: {fileID: 8300000, guid: 7e4a4938ef0054540a73cde394e7aa0e, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    isMusic: 0
+    source: {fileID: 0}
+  - name: gameOver
+    clip: {fileID: 8300000, guid: 49836f8adcc8947388fe8eaa0950bb86, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    isMusic: 0
+    source: {fileID: 0}
+  - name: enterSubMenu
+    clip: {fileID: 8300000, guid: e275df68f0cc7421ebf6077ae35dd690, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    isMusic: 0
+    source: {fileID: 0}
+  - name: exitSubMenu
+    clip: {fileID: 8300000, guid: 12cc0f494934347d3bc97e6c85f6a2b4, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    isMusic: 0
+    source: {fileID: 0}
+  - name: quitGame
+    clip: {fileID: 8300000, guid: d84d9a62aa7e441aa943bb782af80cff, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    isMusic: 0
+    source: {fileID: 0}
+  - name: selectInMenu
+    clip: {fileID: 8300000, guid: c581fafbe675949e2b79af4343ea5298, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    isMusic: 0
+    source: {fileID: 0}
+  - name: musicSubMenu
+    clip: {fileID: 8300000, guid: c12dd0225288f468689218a0e481611f, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 1
+    isMusic: 1
+    source: {fileID: 0}
+  - name: musicLevel
+    clip: {fileID: 8300000, guid: dc6f4ad2b5d054c4c897970c1b0e71c5, type: 3}
+    volume: 0.15
+    pitch: 1
+    loop: 1
+    isMusic: 1
+    source: {fileID: 0}
+  - name: explosionBomb
+    clip: {fileID: 8300000, guid: 546a6694cb855406bba128e2e94a322b, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    isMusic: 0
+    source: {fileID: 0}

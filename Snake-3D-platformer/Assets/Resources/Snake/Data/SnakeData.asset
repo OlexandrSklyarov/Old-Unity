@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80445e33398ad43eda3d3ef4941a8737, type: 3}
+  m_Name: SnakeData
+  m_EditorClassIdentifier: 
+  timeDamage: 1.5
+  speedRun: 2
+  speedFastRun: 6
+  runAcceleration: 0.17
+  hightJump: 10
+  jumpAcceleration: 1.7
+  rotationSpeed: 4
+  graundDistance: 0.25
+  maxLenthTail: 15
+  graundLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  waterLayer:
+    serializedVersion: 2
+    m_Bits: 16
